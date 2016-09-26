@@ -1,0 +1,28 @@
+{
+  "name": "songbeamer",
+  "version": "1.0.0",
+  "description": "Utility to parse songbeamer files into a javscript structure.",
+  "main": "songbeamer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lal12/songbeamer.git"
+  },
+  "keywords": [
+    "songbeamer",
+    "parser",
+    "lyrics",
+    "openlp",
+    "song",
+    "songs",
+    "beamer"
+  ],
+  "author": "Luca Lindhorst",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lal12/songbeamer/issues"
+  },
+  "homepage": "https://github.com/lal12/songbeamer#readme"
+}
