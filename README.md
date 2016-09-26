@@ -1,7 +1,16 @@
-Songbeamer parser
-==============
+#Songbeamer parser
 
-This little utility parses a songbeamer file into the following structure:
+This little utility parses a songbeamer file into the beaneath described structure.
+##Usage
+### NodeJS
+
+	const songbeamer = require('songbeamer');
+	try{
+		songbeamer(data); //Data has to be string of songbeamer file in UTF-8
+	}catch(e){
+		console.log(e.msg, e.data); // e.msg is the error message, e.data are variables passed as additional informations 
+	}
+ 
 ## Structure
 	{
 		props: {
