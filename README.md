@@ -52,7 +52,10 @@ Values from theese keys will be parsed as integers.
 
 ### texts
 Is an associative array (object) of verses, how the key is determined is described in props:VerseOrder.
-Each verse is an array containing slides, each slide is also an array containing lines, each line is also an array containing different translations. The first translation is the main language (may be defined in props["Lang"]). Usually in every line of a song there should be the same number of translations, but the last/only lines of a slide may contain less. This is either due to a malformed file or (if the line contains *one* translation) it could also mean that every language contains this last line. This behaviour was watched often in cases like "2x" or "(3x)", of course this make sense to be shown in every translation.
+Each verse is an array containing slides, each slide is also an array containing lines, each line is also an array containing different translations. 
+The first translation is the main language (may be defined in props["Lang"]). 
+
+Usually in every line of a song there should be the same number of translations, but the last/only lines of a slide may contain less. This is either due to a malformed file or (if the line contains *one* translation) it could also mean that every language contains this last line. This behaviour was watched often in cases like "2x" or "(3x)", of course this make sense to be shown in every translation.
 
 ## Links
 
